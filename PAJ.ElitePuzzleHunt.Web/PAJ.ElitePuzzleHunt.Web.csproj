@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{21242E6A-6C9B-43CA-88BA-C90E016A961B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PAJ.ElitePuzzleHunt.Web</RootNamespace>
+    <AssemblyName>PAJ.ElitePuzzleHunt.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <PublishDatabases>false</PublishDatabases>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="CreateTeam.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
+    <Content Include="Signup.aspx" />
+    <Content Include="Team.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BQWTIVLAO.aspx.cs">
+      <DependentUpon>BQWTIVLAO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BQWTIVLAO.aspx.designer.cs">
+      <DependentUpon>BQWTIVLAO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.aspx.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacts.aspx.designer.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTeam.aspx.cs">
+      <DependentUpon>CreateTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateTeam.aspx.designer.cs">
+      <DependentUpon>CreateTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ElitePuzzleHunt.Master.cs">
+      <DependentUpon>ElitePuzzleHunt.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ElitePuzzleHunt.Master.designer.cs">
+      <DependentUpon>ElitePuzzleHunt.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GYSHGKWIV.aspx.cs">
+      <DependentUpon>GYSHGKWIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GYSHGKWIV.aspx.designer.cs">
+      <DependentUpon>GYSHGKWIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IGWUOKMER.aspx.cs">
+      <DependentUpon>IGWUOKMER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IGWUOKMER.aspx.designer.cs">
+      <DependentUpon>IGWUOKMER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JRYWGVAAW.aspx.cs">
+      <DependentUpon>JRYWGVAAW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JRYWGVAAW.aspx.designer.cs">
+      <DependentUpon>JRYWGVAAW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Puzzle1.aspx.cs">
+      <DependentUpon>Puzzle1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle1.aspx.designer.cs">
+      <DependentUpon>Puzzle1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle10.aspx.cs">
+      <DependentUpon>Puzzle10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle10.aspx.designer.cs">
+      <DependentUpon>Puzzle10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle2.aspx.cs">
+      <DependentUpon>Puzzle2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle2.aspx.designer.cs">
+      <DependentUpon>Puzzle2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle3.aspx.cs">
+      <DependentUpon>Puzzle3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle3.aspx.designer.cs">
+      <DependentUpon>Puzzle3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle4.aspx.cs">
+      <DependentUpon>Puzzle4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle4.aspx.designer.cs">
+      <DependentUpon>Puzzle4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle5.aspx.cs">
+      <DependentUpon>Puzzle5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle5.aspx.designer.cs">
+      <DependentUpon>Puzzle5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle6.aspx.cs">
+      <DependentUpon>Puzzle6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle6.aspx.designer.cs">
+      <DependentUpon>Puzzle6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle7.aspx.cs">
+      <DependentUpon>Puzzle7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle7.aspx.designer.cs">
+      <DependentUpon>Puzzle7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle8.aspx.cs">
+      <DependentUpon>Puzzle8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle8.aspx.designer.cs">
+      <DependentUpon>Puzzle8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle9.aspx.cs">
+      <DependentUpon>Puzzle9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzle9.aspx.designer.cs">
+      <DependentUpon>Puzzle9.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzles.aspx.cs">
+      <DependentUpon>Puzzles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Puzzles.aspx.designer.cs">
+      <DependentUpon>Puzzles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RoutableHuntPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RoutablePuzzlePageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rules.aspx.cs">
+      <DependentUpon>Rules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rules.aspx.designer.cs">
+      <DependentUpon>Rules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams.aspx.cs">
+      <DependentUpon>Teams.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams.aspx.designer.cs">
+      <DependentUpon>Teams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ElitePuzzleHunt.Master" />
+    <Content Include="Styles\ElitePuzzleHunt.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebFormRouting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\WebFormRouting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PAJ.ElitePuzzleHunt.BusinessObjects\PAJ.ElitePuzzleHunt.BusinessObjects.csproj">
+      <Project>{5E3E3F63-78C8-40B8-B29F-D87920C054BB}</Project>
+      <Name>PAJ.ElitePuzzleHunt.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PAJ.ElitePuzzleHunt.Data\PAJ.ElitePuzzleHunt.Data.csproj">
+      <Project>{931AF978-27E0-419F-8C67-2769FA58C419}</Project>
+      <Name>PAJ.ElitePuzzleHunt.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PAJ.ElitePuzzleHunt.Logic.Interfaces\PAJ.ElitePuzzleHunt.Logic.Interfaces.csproj">
+      <Project>{8FB06565-1EB5-4BC4-9069-008056D96ADA}</Project>
+      <Name>PAJ.ElitePuzzleHunt.Logic.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PAJ.ElitePuzzleHunt.Logic\PAJ.ElitePuzzleHunt.Logic.csproj">
+      <Project>{ED3A2EDC-1744-484E-96C9-DB6645AC70FD}</Project>
+      <Name>PAJ.ElitePuzzleHunt.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PAJ.ElitePuzzleHunt.WebControls\PAJ.ElitePuzzleHunt.WebControls.csproj">
+      <Project>{BEF8842B-0DB8-4F37-99AD-0464A4089142}</Project>
+      <Name>PAJ.ElitePuzzleHunt.WebControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BQWTIVLAO.aspx" />
+    <Content Include="Contacts.aspx" />
+    <Content Include="FAQ.aspx" />
+    <Content Include="GYSHGKWIV.aspx" />
+    <Content Include="IGWUOKMER.aspx" />
+    <Content Include="JRYWGVAAW.aspx" />
+    <Content Include="Puzzle1.aspx" />
+    <Content Include="Puzzle10.aspx" />
+    <Content Include="Puzzle2.aspx" />
+    <Content Include="Puzzle3.aspx" />
+    <Content Include="Puzzle4.aspx" />
+    <Content Include="Puzzle5.aspx" />
+    <Content Include="Puzzle6.aspx" />
+    <Content Include="Puzzle7.aspx" />
+    <Content Include="Puzzle8.aspx" />
+    <Content Include="Puzzle9.aspx" />
+    <Content Include="Puzzles.aspx" />
+    <Content Include="Rules.aspx" />
+    <Content Include="Teams.aspx" />
+    <Content Include="User.aspx" />
+    <Content Include="Users.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17150</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

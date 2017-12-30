@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head><meta charset="utf-8" /><title>
+	Une Fa&ccedil;on de Cacher les Secrets Fran&ccedil;ais: The Elite Puzzle Hunt - 2009
+</title><link rel="Stylesheet" type="text/css" href="http://elitepuzzlehunt.patrickjohannessen.com//Styles/ElitePuzzleHunt.css" /></head>
+
+<body>
+
+<div id="container">
+
+<div id="banner">
+<h1>The Elite Puzzle Hunt</h1>
+</div>
+
+<div id="leftnav">
+
+    <ul>
+        <li>Home</li>
+    </ul>
+</div>
+
+<div id="content">
+
+<span style="font-size: 18px;">Une Fa&ccedil;on de Cacher les Secrets Fran&ccedil;ais (SOLUTION)</span><br/>
+Author: Infil<br/>
+Difficulty: Hard
+<br/><br/>
+
+<strong>HINTS:</strong>
+<ol>
+<li>With modern technology, this "chiffre" is no longer "indechiffrable".
+<li>After identifying the French figure the famous cipher is named after, apply a series of chain reactions to make progress.
+<li>After decrypting each line, what should be done with your last unused key?
+</ol>
+
+<strong>ANSWER:</strong> RIJNDAEL
+<br><br>
+
+The puzzle's title is French for "One way to hide French secrets". Well, one way to hide French secrets is to use a famous cryptographic method attributed to a French figure, the Vigenere cipher. This method was well-studied and appears in any serious discussion of the history of cryptography (including Wikipedia's), and is the only historically relevant method given a French name. It was also once known as "le chiffre indechiffrable", which means "the unbreakable cipher", which the first clue references (Googling the word "indechiffrable" brings up many pages on the Vigenere cipher).<br><br>
+
+The cipher encodes plaintext using another textual key by repeating the key until it's as long as the plaintext, then "adding up" (and wrapping around) the letters. More specifically, if A=0, B=1, ..., Z=25, then enciphering a letter <i>x</i> with a key letter <i>y</i> is simply <i>x</i> + <i>y</i> (mod 26). Deciphering is done by "subtracting" the letters. Your first key, as referenced by the preamble, is "middleoftheroad". Decipher the first line using this key; doing it by hand is pretty time consuming, so just use some <a href="http://www.sharkysoft.com/misc/vigenere/">web tool</a> to do it. Take the answer from the first question and use it as the key to decipher the next line. The answers should fit in the blanks next to each question.<br><br>
+
+Repeat this process until you decipher all the lines. The answer to the final question is not the puzzle's solution, but rather another key to deciphering the first letters of all the answers (indicated by the boxes around the first blank on each row). This decrypts to the phrase ANSWERISRIJNDAEL. The answer to the puzzle is <strong>RIJNDAEL</strong>, which is the cipher currently used as the Advanced Encryption Standard, and effectively the most secure private-key encryption method ever developed.<br><br>
+
+<span style="font-family: 'Courier New'; font-size:15px;">
+
+First name of Kip's love interest in the film Napoleon Dynamite. (LaFawnduh)
+<br><br>
+The only four-letter noble gas on the periodic table of elements. (Neon)
+<br><br>
+At Roland Garros, the umpire will announce a score of deuce with this seven-letter word. (Egalite)
+<br><br>
+This city in West Virginia, famous for its role in the state's independence, may also describe the act of cycling. (Wheeling)
+<br><br>
+Last name of the best Venezuelan shortstop the American League produced in the nineties. (Vizquel)
+<br><br>
+Roland Emmerich-directed science fiction film concerning an alien invasion of Earth. (Independence Day)
+<br><br>
+This PlayStation 2 FPS launch game developed by ex-Rare staff members spawned two sequels and was highly rated. (TimeSplitters)
+<br><br>
+Siberian location of the satellite monitoring bunker destroyed by Ourumov and company in the James Bond film GoldenEye. (Severnaya)
+<br><br>
+Always appearing in the third panel, she is the female dinosaur in Ryan North's famous constrained webcomic. (Dromiceiomimus)
+<br><br>
+Last name of current Calgary Flames captain. (Iginla)
+<br><br>
+Lovable monkey sidekick in a famous 1992 Disney animated feature. (Abu)
+<br><br>
+First and last name of the sitcom character famous for the "little kicks" dance. (Elaine Benes)
+<br><br>
+The concealment of intended meaning in communication, making something intentionally more difficult to interpret (particularly relating to code). (obfuscation)
+<br><br>
+Famous poker term indicating the betting of a player's entire stack. (All-in)
+<br><br>
+Complete the lyric: "She's a killer _____, gunpowder gelatine, dynamite with a laser beam" (Queen)
+<br><br>
+The last name of the actor who portrayed Desperation Lee and a hyperactive postal worker on MADtv. (LaMarr)
+<br><br>
+The first letters of all the answers spell: LNEWVITSDIAEOAQL (ANSWERISRIJNDAEL)
+<br><br>
+
+</span>
+
+
+
+
+
+</div>
+
+<div id="footer">
+<a href="http://www.the-elite.net">The Elite</a> - 2009
+</div>
+
+</div>
+</body>
+</html>

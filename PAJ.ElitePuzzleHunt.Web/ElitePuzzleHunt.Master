@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" CodeBehind="ElitePuzzleHunt.master.cs" Inherits="PAJ.ElitePuzzleHunt.Web.ElitePuzzleHunt" %>
+<%@ Register Assembly="PAJ.ElitePuzzleHunt.WebControls" Namespace="PAJ.ElitePuzzleHunt.WebControls" TagPrefix="PAJ" %><!DOCTYPE html>
+
+<html lang="en">
+
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>The Elite Puzzle Hunt - 2010</title>
+    <link rel="Stylesheet" type="text/css" href="Styles/ElitePuzzleHunt.css" />
+    <asp:ContentPlaceHolder ID="HeaderPlaceholder" runat="server" />
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="banner">
+<h1>The Elite Puzzle Hunt 2010</h1>
+</div>
+
+<div id="leftnav">
+    <ul>
+        <li>- <a href="/">Home</a></li>
+        <li>- <a href="/Rules/">Rules</a></li>
+        <li>- <a href="/FAQ/">FAQ</a></li>
+        <li>- <a href="/Contacts/">Contacts</a></li>
+        <li>- <a href="/Login/">Login</a></li>
+        <li>- <a href="/Teams/">Teams</a></li>
+        <li>- <a href="/Users/">Users</a></li>
+        <li>- <a href="/Puzzles/">Puzzles</a></li>
+    </ul>
+</div>
+
+<div id="content">
+<asp:ContentPlaceHolder ID="ContentPlaceholder" runat="server" />
+</div>
+
+<div id="footer">
+<a href="http://www.the-elite.net">The Elite</a> - 2010
+</div>
+
+</div>
+</body>
+</html>

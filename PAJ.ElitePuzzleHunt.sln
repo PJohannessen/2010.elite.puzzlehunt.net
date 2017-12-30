@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAJ.ElitePuzzleHunt.Data", "PAJ.ElitePuzzleHunt.Data\PAJ.ElitePuzzleHunt.Data.csproj", "{931AF978-27E0-419F-8C67-2769FA58C419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAJ.ElitePuzzleHunt.Logic", "PAJ.ElitePuzzleHunt.Logic\PAJ.ElitePuzzleHunt.Logic.csproj", "{ED3A2EDC-1744-484E-96C9-DB6645AC70FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAJ.ElitePuzzleHunt.Web", "PAJ.ElitePuzzleHunt.Web\PAJ.ElitePuzzleHunt.Web.csproj", "{21242E6A-6C9B-43CA-88BA-C90E016A961B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAJ.ElitePuzzleHunt.BusinessObjects", "PAJ.ElitePuzzleHunt.BusinessObjects\PAJ.ElitePuzzleHunt.BusinessObjects.csproj", "{5E3E3F63-78C8-40B8-B29F-D87920C054BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAJ.ElitePuzzleHunt.WebControls", "PAJ.ElitePuzzleHunt.WebControls\PAJ.ElitePuzzleHunt.WebControls.csproj", "{BEF8842B-0DB8-4F37-99AD-0464A4089142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAJ.ElitePuzzleHunt.Logic.Interfaces", "PAJ.ElitePuzzleHunt.Logic.Interfaces\PAJ.ElitePuzzleHunt.Logic.Interfaces.csproj", "{8FB06565-1EB5-4BC4-9069-008056D96ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{931AF978-27E0-419F-8C67-2769FA58C419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931AF978-27E0-419F-8C67-2769FA58C419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931AF978-27E0-419F-8C67-2769FA58C419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931AF978-27E0-419F-8C67-2769FA58C419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3A2EDC-1744-484E-96C9-DB6645AC70FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3A2EDC-1744-484E-96C9-DB6645AC70FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3A2EDC-1744-484E-96C9-DB6645AC70FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3A2EDC-1744-484E-96C9-DB6645AC70FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21242E6A-6C9B-43CA-88BA-C90E016A961B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21242E6A-6C9B-43CA-88BA-C90E016A961B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21242E6A-6C9B-43CA-88BA-C90E016A961B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21242E6A-6C9B-43CA-88BA-C90E016A961B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3E3F63-78C8-40B8-B29F-D87920C054BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3E3F63-78C8-40B8-B29F-D87920C054BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3E3F63-78C8-40B8-B29F-D87920C054BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3E3F63-78C8-40B8-B29F-D87920C054BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF8842B-0DB8-4F37-99AD-0464A4089142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF8842B-0DB8-4F37-99AD-0464A4089142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF8842B-0DB8-4F37-99AD-0464A4089142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF8842B-0DB8-4F37-99AD-0464A4089142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB06565-1EB5-4BC4-9069-008056D96ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB06565-1EB5-4BC4-9069-008056D96ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB06565-1EB5-4BC4-9069-008056D96ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB06565-1EB5-4BC4-9069-008056D96ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1B50221-ADCF-4350-BB75-04142463882A}
+	EndGlobalSection
+EndGlobal
